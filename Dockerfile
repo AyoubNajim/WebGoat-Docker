@@ -1,4 +1,4 @@
 FROM openjdk
 EXPOSE 8080
-COPY tqret/*.jar /
+COPY target/*.jar /
 ENTRYPOINT ["java", "-jar", "webgoat.jar"]
